@@ -1,0 +1,47 @@
+#about {
+  background: linear-gradient(red 30%, yellowgreen 30%, yellowgreen 40%, yellow 40%, yellow 50%);
+  position: fixed;
+  bottom: 103px;
+  padding: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 100vh;
+}
+
+.stripes {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  margin: 0;
+  z-index: -1;
+  /* background-image: radial-gradient(
+    circle at top left,
+    #ec407a,
+    #ec407a 20%,
+    #7e57c2 20%,
+    #7e57c2 40%,
+    #42a5f5 40%,
+    #42a5f5 60%,
+    #26a69a 60%,
+    #26a69a 80%,
+    #9ccc65 80%
+  ); */
+
+    background: repeating-radial-gradient(
+    circle at center,
+    #eee,
+    #ccc 100px
+  );
+}
+
+nav {
+  position: fixed;
+  right: 100px;
+  top: 20px;
+  border: 20px;
+  border-color: black;
+  color:alpha( black, 0.7);
+}
